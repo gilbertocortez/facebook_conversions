@@ -45,6 +45,6 @@ $url = "https://graph.facebook.com/v12.0/{Pixel ID}/events";
 
 // ------------------------------------------------
 // Use cURL to send the POST request
-include './inc/objects/curl.class.php';
+include $_SERVER['DOCUMENT_ROOT'] . "/facebook_conversions-master/inc/objects/curl.class.php";
 $_curl_ = new CurlServer();
 $_curl_->post_request($url, $submitJson);

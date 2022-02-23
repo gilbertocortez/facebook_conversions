@@ -28,7 +28,7 @@ class CurlServer
 
         // Debug
         //print_r ( $server_output );
-        print_r($serverReponseObject);
+        //print_r($serverReponseObject);
     }
     function get_request($url)
     {
@@ -43,6 +43,6 @@ class CurlServer
 
         // Debug
         //print_r ( $server_output );
-        print_r($serverReponseObject);
+        //print_r($serverReponseObject);
     }
 }
